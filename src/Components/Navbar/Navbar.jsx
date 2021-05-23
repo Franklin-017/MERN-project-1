@@ -2,6 +2,7 @@ import { AppBar, IconButton, InputBase, Toolbar, Typography } from "@material-ui
 import { AcUnit, Search } from '@material-ui/icons'
 import useStyles from "./NavbarStyle"
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+import Home from '../Home/Home'
 
 const Navbar = () => {
   const classes = useStyles()
@@ -34,7 +35,7 @@ const Navbar = () => {
         </AppBar>
         <Switch>
           <Route path="/">
-            
+            <Home />
           </Route>
         </Switch>
       </Router>

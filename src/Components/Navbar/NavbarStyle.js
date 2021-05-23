@@ -12,16 +12,17 @@ const useStyles = makeStyles((theme) =>({
   searchBox: {
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
-    background: fade(theme.palette.common.white, 0.15),
+    background: fade(theme.palette.common.white, 0.45),
     '&:hover': {
-      background: fade(theme.palette.common.white, 0.20)
+      background: fade(theme.palette.common.white, 0.50)
     },
     marginLeft: theme.spacing(12),
     width: '50%'
   },
   inputBase: {
     color: '#FDFDFD',
-    marginLeft: theme.spacing(2)
+    marginLeft: theme.spacing(2),
+    width: '90%'
   },
   searchIcon: {
     color: '#FDFDFD'

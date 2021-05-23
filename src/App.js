@@ -6,7 +6,7 @@ const App = () => {
   return (
     <React.Fragment>
       <CssBaseline/>
-      <div>
+      <div style={{ backgroundColor: '#fffeff' }}>
         <Navbar />
       </div>
     </React.Fragment>
