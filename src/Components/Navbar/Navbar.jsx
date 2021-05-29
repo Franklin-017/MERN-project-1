@@ -12,13 +12,13 @@ const Navbar = () => {
         <AppBar position="static" color="secondary">
           <Toolbar>
             <Link to='/'>
-              <IconButton className={ classes.logoIcon } disableFocusRipple="true" disableRipple="true" disableTouchRipple="true">
+              <IconButton className={ classes.logoIcon } disableFocusRipple disableRipple disableTouchRipple>
                 <AcUnit />
               </IconButton>
               <Typography className={ classes.brandName } variant="h6">White</Typography>
             </Link>
             <div className={ classes.searchBox }>
-              <IconButton disabled='true'>
+              <IconButton disabled>
                 <Search className={ classes.searchIcon }/>
               </IconButton>
               <InputBase placeholder="Search..." className={ classes.inputBase }/>
